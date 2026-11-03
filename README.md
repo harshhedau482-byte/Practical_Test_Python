@@ -55,9 +55,9 @@ The scripts are divided into three main sections covering essential Python stand
 You can run each section individually or combine them into a single Python file:
 
 ```bash
-python script.py
 
----
+
+
 
  Code Structure & Breakdown (Continued)
 
@@ -146,5 +146,7 @@ With all parts integrated, your project file layout looks like this:
 
 With all parts fully integrated (Standard Library, NumPy, and Pandas modules), your complete project layout looks like this:
 
+Your name :
+Harsh Hedau
 Your name :
 Harsh Hedau
