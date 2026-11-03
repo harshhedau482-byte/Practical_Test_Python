@@ -55,7 +55,44 @@ The scripts are divided into three main sections covering essential Python stand
 You can run each section individually or combine them into a single Python file:
 
 ```bash
+# Python Utility Scripts: File Management & Date Tools
 
+This repository contains two self-contained Python script demonstrations covering file system operations (`os` and `shutil`) and date/calendar utility functions (`datetime`).
+
+---
+
+## Script Overview
+
+### Q.4: File System Operations (`os` & `shutil`)
+Demonstrates programmatic directory creation, file writing, filtering, moving, renaming, and clean teardown using Python's standard library.
+
+* **Directory Management:** Creates nested directories (`proj/logs` and `proj/archive`) using `os.makedirs()` with `exist_ok=True`.
+* **File I/O:** Creates and populates sample text and CSV files (`a.txt`, `b.txt`, `c.csv`).
+* **Filtering & Reading:** Uses list comprehensions to filter `.txt` files, counts lines, and strips string contents.
+* **Moving & Renaming:** Moves files across directories via `shutil.move()` and renames files using `os.rename()`.
+* **Cleanup:** Recursively deletes the entire project directory tree using `shutil.rmtree()`.
+
+### Q.5: Date Utilities (`datetime`)
+Provides lightweight helper functions for calendar calculations and formatting.
+
+* **`is_leap_year(year)`:** Custom logic to determine leap years based on Gregorian calendar rules (divisible by 400, or by 4 but not 100).
+* **`day_name(text)`:** Parses date strings using a predefined `DATE_FORMAT` (`%Y-%m-%d`) and returns the full weekday name (e.g., `Thursday`).
+
+---
+
+## Requirements
+
+* Python 3.x
+* No external third-party packages required (uses standard libraries: `os`, `shutil`, `datetime`).
+
+---
+
+## Usage
+
+Run the scripts directly from your terminal:
+
+```bash
+python script.py
 
 
 
